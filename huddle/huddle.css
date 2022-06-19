@@ -1,0 +1,1267 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:hsl(193, 100%, 96%);
+    display: flex;
+    align-items: center;
+    padding: 3% 5%;
+}
+.header-logo{
+    width: 16%;
+}
+.nav{
+    margin-left: auto;
+}
+.nav-btn{
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 10px 35px;
+}
+
+
+.community-container{
+    background-image: url(images/bg-hero-desktop.svg);
+    background-position: top;
+    background-color:hsl(193, 100%, 96%) ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 2%;
+}
+.community-heading{
+    margin-left: 5%;
+    width: 33%;
+}
+.comm-heading{
+    font-size: 38px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.p-heading{
+    font-size: 18px;
+    margin: 6% 0 5% 0;
+    line-height: 25px;
+}
+
+
+
+.community-image{
+    width: 45%;
+    margin-left: 12%;
+}
+.comm-img{
+    width: 100%;
+}
+.community-btn{
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    padding: 3% 12%;
+    border-radius: 50px;
+}
+
+
+
+
+.mid-container{ 
+    padding: 7% 0 13% 0;
+}
+.grow-together{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    padding: 3% 0;
+    width: 90%;
+    box-shadow: 1px 5px 8px -3px rgb(0 0 0 / 62%);
+}
+.grow-heading{
+    width: 32%;
+    margin-left: 7%;
+}
+.mid-heading{
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.p-mid{
+    color: hsl(208, 11%, 55%);
+}
+.grow-image{
+    width: 30%;
+    margin-left: 27%;
+}
+.grow-img{
+    width: 100%;
+}
+
+.conversations{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2% 0 2% 5%;
+    padding: 3% 0;
+    width: 90%;
+    box-shadow: 1px 5px 8px -3px rgb(0 0 0 / 62%);
+}
+.conversation-image{
+    width: 30%;
+    margin-left: 7%;
+}
+.conv-img{
+    width: 100%;
+}
+.conversation-heading{
+    width: 32%;
+    margin-left: 27%;
+}
+.your-users{
+    box-shadow: #000;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    padding: 3% 0;
+    width: 90%;
+    box-shadow: 1px 5px 8px -3px rgb(0 0 0 / 62%);
+}
+.users-heading{
+    width: 32%;
+    margin-left: 7%;
+}
+.users-image{
+    width: 30%;
+    margin-left: 27%;
+}
+.users-img{
+    width: 100%;
+}
+
+.build-community{
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 1px 5px 8px -3px rgb(0 0 0 / 62%);
+    width: 50%;
+    margin: 0 25%;
+    margin-top: -80px;
+    padding: 4% 0;
+    position: absolute;
+}
+h2{
+    font-family: 'Poppins';
+}
+
+.build-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.build-btn{
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 50px;
+    color: #fff;
+    margin-top: 4%;
+    padding: 3% 10%;
+}
+
+
+
+.footer-container{
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+    padding: 10% 0;
+    margin-top: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.location-icon{
+    display: flex;
+    flex-direction: row;
+}
+.location-contact{
+    margin: 4% 0 0 7%;
+}
+.lorem-heading{
+    width: 75%;
+    margin-left: 2%;
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+    margin: 5% 0;
+}
+.phone-no{
+    margin-left: 2%;
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+.email-ad{
+    margin-left: 2%;
+}
+.about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 7% 7% 0 0;
+    width: 15%;
+}
+.about-link{
+    color: #fff;
+    text-decoration: none;
+    line-height: 2.5;
+}
+.about-link:hover{
+    color: hsl(322, 100%, 66%);
+}
+
+.footer-logo{
+    margin-bottom: 35px;
+    width: 40%;
+}
+.contact{
+    margin: 7% 7% 0 0;
+    width: 15%;
+}
+.contact-link{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    line-height: 2.5;
+}
+.contact-link:hover{
+    color: hsl(322, 100%, 66%);;
+}
+.social-media{
+    margin-right: 5%;
+    width: 35%;
+    margin-top: 11%;
+}
+.social-icon{
+    margin-left: 2%;
+}
+.social-icon:hover{
+    color: hsl(322, 100%, 66%);;
+}
+.copyright{
+    font-size: 14px;
+    width: 100%;
+    margin-top: 40%;
+}
+
+
+/* responsive codes */
+
+@media (max-width: 1066px){
+    .build-community{
+        margin-top: -90px;
+    }
+    .footer-container{
+        margin-top: 5px;
+    }
+    .mid-container{
+        padding-bottom: 20%;
+    }
+    .about-us{
+        width: 30%;
+    }
+
+    }
+
+
+
+@media (max-width: 890px){
+    .header-logo{
+        width: 18%;
+    }
+    .community-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .community-heading{
+        margin-top: 3%;
+        width: 50%;
+        text-align: center;
+    }
+    .p-heading{
+        text-align: center;
+    }
+    .community-image{
+        margin-top: 5%;
+        width: 60%;
+    }
+    .mid-container{
+        padding-bottom: 25%;
+    }
+    .build-community{
+       margin-top: -70px;
+       width: 50%;
+    }
+    .build-heading{
+        font-size: 15px;
+    }
+    .build-btn{
+        font-size: 12px;
+    }
+    .footer-container{
+        margin-top: 10px;
+    }
+    
+    .lorem-heading{
+        font-size: 14px;
+        line-height: 18px;
+        width: 100%;
+    }
+    .phone-no, .email-ad{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .about-us{
+        margin-left: 5%;
+        width: 40%;
+    }
+    .contact{
+        width: 40%;
+        margin-right: 5%;
+
+    }
+    .footer-logo{
+        width: 50%;
+    }
+    .social-link{
+        width: 40%;
+        margin-top: 30px;
+    }
+    .copyright{
+        font-size: 12px;
+        width: 100%;
+    }
+    .icon-image{
+        width: 60%;
+    }
+}
+
+@media (max-width: 777px) {
+     .build-heading{
+         font-size: 14px;
+     }
+     .build-btn{
+        font-size: 11px;
+    }
+    .footer-logo{
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 744px) {
+    .build-heading{
+        font-size: 13px;
+    }
+    .build-btn{
+       font-size: 11px;
+   }
+
+}
+
+
+@media (max-width: 725px){
+    .comm-heading{
+        font-size: 25px;
+    }
+    .p-heading{
+        font-size: 16px;
+    }
+  h2{
+      font-size: 18px;
+  }
+  .community-btn{
+      font-size: 15px;
+  }
+  .community-image{
+    width: 56%;
+}
+.lorem-heading{
+    width: 70%;
+}
+.mid-heading{
+    font-size: 16px;
+}
+.p-mid{
+    font-size: 13px;
+        width: 100%;
+}
+h2{
+    font-size: 16px;
+}
+.mid-container{
+    padding-bottom: 20%;
+}
+  .build-btn{
+      font-size: 10px;
+  }
+  .build-community{
+      margin-top: -15px;
+  }
+  .footer-container{
+      margin-top: 50px;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .footer-logo{
+      margin-top: 50px;
+  }
+  .about-us{
+    font-size: 14px;
+    margin-top: 50px;
+    margin-right: 58%;
+    width: 30%;
+}
+.contact{
+    font-size: 14px;
+    margin-right: 53%;
+    width: 30%;
+}
+
+.social-icon{
+    font-size: 22px;
+}
+.social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+    margin: 0 !important;
+    flex-direction: column;
+}
+.social-m-c {
+    width: 100%;
+    margin-left: 50%;
+}
+.social-media > p {
+    width: 100%;
+    margin-top: 0 !important;
+}
+.footer-logo{
+    width: 30%;
+}
+.copyright{
+    margin-top: 30px!important;
+}
+.social-m-c{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+   
+}
+
+@media (max-width: 621px) {
+    .build-community{
+        margin-top: -10px;
+    }
+    .copyright{
+        font-size: 11px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 556px) {
+    .build-community{
+        width: 80%;
+        margin: auto;
+        margin-left: 10%;
+        margin-top: -30px;
+        padding: 8% 0;
+    }
+    .build-heading{
+        font-size: 14px;
+        text-align: center;
+    }
+    .copyright{
+        font-size: 10px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 535px){
+    .header-logo{
+        width: 25%;
+    }
+    .nav-btn{
+        font-size: 10px;
+        padding: 7px 25px;
+    }
+    .mid-container{
+        padding-bottom: 100px;
+    }
+    .community-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 3%;
+    }
+    .community-heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 12%;
+        width: 90%;
+        text-align: center;
+    }
+    .comm-heading{
+        font-size: 30px;
+        width: 80%;
+    }
+    .p-heading{
+        font-size: 17px;
+        width: 85%;
+    }
+    .community-image{
+        width: 90%;
+        margin: 60px 0 15px 10px;
+    }
+    .comm-img{
+        width: 100%;
+    }
+    .community-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       margin-top: 3%;
+    }
+
+    .grow-together{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .grow-image{
+        margin: 12% 0 0 4%;
+        width: 80%;
+    }
+    .grow-heading{
+        margin-right: 4%;
+        width: 70%;
+    }
+    .mid-heading{
+        font-size: 19px;
+        margin-top: 12%;
+        text-align: center;
+    }
+    .p-mid{
+        font-size: 14px;
+        margin: 5% 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .conversations{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .conversation-image{
+        margin: 12% 0 0 4%;
+        width: 80%;
+    }
+    .conversation-heading{
+        margin-left: 4%;
+        width: 67%;
+    }
+    .your-users{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .users-heading{
+        margin-left: 4%;
+        width: 60%;
+    }
+    .users-image{
+        margin: 12% 0 0 4%;
+        width: 80%;
+    }
+    .build-community{
+        width: 80%;
+        margin: auto;
+        margin-left: 10%;
+        margin-top: -30px;
+        padding: 8% 0;
+    }
+    .build-heading{
+        text-align: center;
+    }
+    .build-btn{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .footer-logo{
+        margin-top: 60px;
+        width: 30%;
+    }
+
+}
+
+@media (max-width: 489px){
+    .header-logo{
+        width: 25%;
+    }
+    .nav-btn{
+        font-size: 10px;
+        padding: 7px 25px;
+    }
+    .mid-container{
+        padding-bottom: 100px;
+    }
+    .community-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 3%;
+    }
+    .community-heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 12%;
+        width: 90%;
+        text-align: center;
+    }
+    .comm-heading{
+        font-size: 25px;
+        width: 70%;
+    }
+    .p-heading{
+        font-size: 16px;
+        width: 85%;
+    }
+    .community-image{
+        width: 90%;
+        margin: 60px 0 15px 10px;
+    }
+    .comm-img{
+        width: 100%;
+    }
+    .community-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       margin-top: 3%;
+    }
+
+    .grow-together{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .grow-image{
+        margin: 12% 0 0 4%;
+        width: 80%;
+    }
+    .grow-heading{
+        margin-right: 4%;
+        width: 70%;
+    }
+    .mid-heading{
+        font-size: 18px;
+        margin-top: 12%;
+        text-align: center;
+    }
+    .p-mid{
+        font-size: 13px;
+        margin: 5% 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .conversations{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .conversation-image{
+        margin: 12% 0 0 4%;
+        width: 80%;
+    }
+    .conversation-heading{
+        margin-left: 4%;
+        width: 67%;
+    }
+    .your-users{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .users-heading{
+        margin-left: 4%;
+        width: 60%;
+    }
+    .users-image{
+        margin: 12% 0 0 4%;
+        width: 80%;
+    }
+    .build-community{
+        width: 80%;
+        margin: auto;
+        margin-left: 10%;
+        margin-top: -30px;
+        padding: 8% 0;
+    }
+    .build-heading{
+        text-align: center;
+    }
+    .build-btn{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .footer-logo{
+        margin-top: 60px;
+        width: 30%;
+    }
+    .copyright{
+        font-size: 9px!important;
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 465px){
+    .copyright{
+        font-size: 8.9px!important;
+        margin-left: 10px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 430px){
+    .header-logo{
+        width: 22%;
+    }
+    .build-community{
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 100px;
+        padding: 9% 0;
+    }
+    .build-heading{
+        text-align: center;
+    }
+    .build-heading > h2{
+        font-size: 17px;
+    }
+    .build-btn{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .copyright{
+        font-size: 8.1px!important;
+        width: 100%;
+    }
+}
+
+@media (max-width: 422px){
+    .comm-heading{
+        width: 75%;
+    }
+    .footer-logo{
+        width: 30%;
+    }
+    .copyright{
+        font-size: 8px!important;
+        width: 100%;
+    }
+    
+}
+
+
+@media (max-width: 395px){
+    h2{
+        font-size: 18px;
+    }
+    .build-community{
+        margin-top: -20px;
+    }
+    .footer-logo{
+        width: 30%;
+    }
+    .copyright{
+        font-size: 7.5px!important;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 375px){
+    .header-logo{
+        width: 25%;
+    }
+    .nav-btn{
+        font-size: 10px;
+        padding: 7px 25px;
+    }
+    .mid-container{
+        padding-bottom: 100px;
+    }
+    .community-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 3%;
+    }
+    .community-heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 12%;
+        width: 90%;
+        text-align: center;
+    }
+    .comm-heading{
+        font-size: 25px;
+        width: 90%;
+    }
+    .p-heading{
+        font-size: 16px;
+        width: 85%;
+    }
+    .community-image{
+        width: 90%;
+        margin: 60px 0 15px 10px;
+    }
+    .comm-img{
+        width: 100%;
+    }
+    .community-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       margin-top: 3%;
+    }
+
+    .grow-together{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .grow-image{
+        margin: 12% 0 0 4%;
+        width: 80%;
+    }
+    .grow-heading{
+        margin-right: 4%;
+        width: 70%;
+    }
+    .mid-heading{
+        font-size: 18px;
+        margin-top: 12%;
+        text-align: center;
+    }
+    .p-mid{
+        font-size: 13px;
+        margin: 5% 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .conversations{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .conversation-image{
+        margin: 12% 0 0 4%;
+        width: 80%;
+    }
+    .conversation-heading{
+        margin-left: 4%;
+        width: 67%;
+    }
+    .your-users{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .users-heading{
+        margin-left: 4%;
+        width: 60%;
+    }
+    .users-image{
+        margin: 12% 0 0 4%;
+        width: 80%;
+    }
+
+    .build-community{
+        width: 90%;
+        margin: auto;
+        margin-left: 5%;
+        margin-bottom: 100px;
+        padding: 9% 0;
+    }
+    .build-heading{
+        text-align: center;
+    }
+    .build-btn{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 20px;
+    }
+
+    .footer-container{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-logo{
+        margin-right: 50%;
+        margin-top: 100px;
+        width: 40%;
+    }
+    .lorem-heading, .phone-no, .email-ad{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .social-media{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .social-m-c{
+        margin-top: 10px;
+    }
+    .social-icon{
+        font-size: 20px;
+    }
+       
+    .copyright{
+        font-size: 7px!important;
+        margin-left: 15px;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 345px){
+    h2{
+        font-size: 19px;
+    }
+    .copyright{
+        font-size: 6.4px!important;
+        margin: 0 38px 0 0!important;
+        text-align: center;
+        width: 100%;
+    }
+    .social-m-c{
+        margin: 20px 0 10px 0!important;
+    }
+}
+
+@media (max-width: 332px){
+    .comm-heading{
+        width: 95%;
+        font-size: 22px;
+    }
+    .p-heading{
+        font-size: 14px;
+    }
+    .community-btn{
+        font-size: 14px;
+    }
+    .mid-heading{
+        font-size: 16px;
+    }
+    .p-mid{
+        font-size: 12px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    .lorem-heading{
+        font-size: 15px;
+    }
+    .email-ad, .phone-no{
+        font-size: 15px;
+    }
+    .about-us, .contact{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 279px){
+    .comm-heading{
+        width: 95%;
+        font-size: 20px;
+    }
+    .p-heading{
+        font-size: 12px;
+    }
+    .community-btn{
+        font-size: 11px;
+    }
+    .mid-heading{
+        font-size: 15px;
+    }
+    .p-mid{
+        font-size: 11px;
+    }
+    .lorem-heading{
+        font-size: 13px;
+    }
+    .email-ad, .phone-no{
+        font-size: 13px;
+    }
+    .about-us, .contact{
+        font-size: 12px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    .copyright{
+        font-size: 6.4px!important;
+        margin: 0 20px 0 0!important;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 255px){
+    .nav-btn{
+        font-size: 9px;
+    }
+    .comm-heading{
+        width: 99%;
+        font-size: 17px;
+    }
+    .p-heading{
+        font-size: 11px;
+    }
+    .community-btn{
+        font-size: 10px;
+    }
+    .mid-heading{
+        font-size: 14px;
+    }
+    .p-mid{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 14px;
+    }
+    .lorem-heading{
+        font-size: 12px;
+    }
+    .email-ad, .phone-no{
+        font-size: 12px;
+    }
+    .about-us, .contact{
+        font-size: 11px;
+    }
+    .copyright{
+        font-size: 6.4px!important;
+        margin: 0 15px 0 0!important;
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 211px){
+    .comm-heading{
+        width: 99%;
+        font-size: 15px;
+    }
+    .p-heading{
+        font-size: 9px;
+    }
+    .community-btn{
+        font-size: 10px;
+    }
+    .mid-heading{
+        font-size: 11px;
+    }
+    .p-mid{
+        font-size: 9px;
+    }
+    h2{
+        font-size: 11px;
+    }
+    .build-btn{
+        font-size: 8px;
+    }
+    .lorem-heading{
+        font-size: 11px;
+    }
+    .email-ad, .phone-no{
+        font-size: 11px;
+    }
+    .about-us, .contact{
+        font-size: 10px;
+    }
+    .social-m-c{
+        width: 100%;
+    }
+    .social-icon{
+        width: 25%;
+    }
+}
+
+@media (max-width: 188px){
+    .build-heading > h2{
+        font-size: 15px;
+    }
+    .comm-heading{
+        width: 100%;
+        font-size: 14px;
+    }
+    .mid-heading{
+        font-size: 10px;
+    }
+    .p-mid{
+        font-size: 8px;
+    }
+    .build-btn{
+        font-size: 8px;
+    }
+    .lorem-heading{
+        font-size: 10px;
+    }
+    .email-ad, .phone-no{
+        font-size: 10px;
+    }
+    .about-us, .contact{
+        font-size: 9px;
+    }
+    h2{
+        font-size: 10px;
+    }
+    .copyright{
+        font-size: 5.5px!important;
+        margin: 0 7px 0 0!important;
+        text-align: center;
+    }
+}
+
+@media (max-width: 175px){
+    .build-heading > h2{
+        font-size: 16px;
+    }
+    .comm-heading{
+        width: 100%;
+        font-size: 12px;
+    }
+    .mid-heading{
+        font-size: 9px;
+    }
+    .p-mid{
+        font-size: 7px;
+    }
+    .community-btn{
+        font-size: 9px;
+    }
+    h2{
+        font-size: 9px;
+    }
+    .build-btn{
+        font-size: 7px;
+    }
+    .lorem-heading{
+        font-size: 9px;
+    }
+    .email-ad, .phone-no{
+        font-size: 9px;
+    }
+    .about-us, .contact{
+        font-size: 8px;
+    }
+}
+
+
+@media (max-width: 153px){
+    .build-heading > h2{
+        font-size: 14px!important;
+    }
+    .comm-heading{
+        width: 100%;
+        font-size: 11px;
+    }
+    .mid-heading{
+        font-size: 8px;
+    }
+    .p-mid{
+        font-size: 6px;
+    }
+    .community-btn{
+        font-size: 8px;
+    }
+    h2{
+        font-size: 8px;
+    }
+    .build-btn{
+        font-size: 6px;
+    }
+    .lorem-heading{
+        font-size: 8px;
+    }
+    .email-ad, .phone-no{
+        font-size: 8px;
+    }
+    .about-us, .contact{
+        font-size: 7px;
+    }
+}
+
+
+
+
+
+
+
+
+
